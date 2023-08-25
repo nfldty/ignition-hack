@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
+    <header>
+        <p class ="Logo"></p>
+        <input type="checkbox" name="" class="btn"/>
+        <nav>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About Us</a></li>
+            </ol>
+        </nav>
+    </header>
     <head>
         <link href = "project.css" rel = "stylesheet"/>
     </head>
     <p> Hello World</p>
     <form>
-        <label class = 'custom-file-upload' for = "uploadedfile">Upload File Here</label><br><br>
-        <input type = "file" method = 'post' id = "uploadedfile" accept = ".doc,.docx,.pdf" multiple/>
+        <label class = 'custom-file-upload border' for = "uploadedfile">↓↑ upload ↓↑</label><br><br>
+        <input class = 'border' type = "file" method = 'post' id = "uploadedfile" accept = ".doc,.docx,.pdf" multiple/>
         <button>submit</button>
     </form>
 </html>
