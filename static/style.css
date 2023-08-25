@@ -1,0 +1,9 @@
+.word-button {
+    background:transparent;
+    border:none;
+    text-align:left;
+}
+
+.word-button:hover {
+    background-color: grey;
+}
